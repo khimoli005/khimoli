@@ -4175,18 +4175,24 @@ body{
 	interest Calc start
 ===========================*/
 .containerr {
-	background-color: #ffffff;
-	position: absolute;
-	transform: translate(-50%, -50%);
-	top: 68%;
-	left: 50%;
-	width: 80vw;
-	max-width: 600px;
-	min-width: 350px;
-	padding: 60px 30px;
-	border-radius: 10px;
-	box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+	border: 5px outset rgb(247, 245, 155);
   }
+  .containerrP {
+	background-color: lightblue;
+	text-align: left;
+	right: 75px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	width: 700px;
+  }
+  .column {
+	float: left;
+	width: 50%;
+	padding: 10px;
+	height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
 label {
 	display: block;
 	font-size: 22px;
@@ -4199,7 +4205,7 @@ input {
 	font-size: 20px;
 	border-bottom: 2px solid #585858;
 	color: #585858;
-	padding: 2px 15px;
+	padding: 5px 15px;
   }
 input:focus {
 	outline: none;
@@ -4208,13 +4214,13 @@ input:focus {
 .input-wrapper {
 	display: flex;
 	justify-content: space-between;
-	gap: 20px;
+	gap: 30px;
   }
   .input-wrapper input {
-	width: 100%;
+	width: 70%;
   }
   .time-wrapper input {
-	width: 60%;
+	width: 30%;
   }
 
   select {
